@@ -1,0 +1,34 @@
+html {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    font-family: Verdana, Arial, sans-serif;
+}
+
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+p {
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+a {
+    border: 2px solid white;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
