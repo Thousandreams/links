@@ -6,6 +6,11 @@ html {
     background-size: 400% 400%;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0 50%;
@@ -28,24 +33,40 @@ div {
     flex-flow: column;
 }
 
-p {
+.title {
     color: white;
     font-size: 5vh;
     text-align: center;
 }
 
-a {
+.btn {
     -webkit-box-shadow: 0 31px 68px -25px rgba(0, 0, 0, 0.68);
     -moz-box-shadow: 0 31px 68px -25px rgba(0, 0, 0, 0.68);
     box-shadow: 0 31px 68px -25px rgba(0, 0, 0, 0.68);
     border-radius: 50px;
     background-color: white;
     margin-bottom: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     width: 100%;
     text-decoration: none;
     color: black;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    margin-right: 10px;
+    height: 5vh;
+}
+
+.license {
+    bottom: 10px;
+    color: white;
+    font-size: 7px;
+    text-align: center;
+    width: 100%;
 }
