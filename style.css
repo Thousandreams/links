@@ -23,6 +23,11 @@ body {
     }
 }
 
+img {
+    max-width: 450px;
+    margin-bottom: 5px;
+}
+
 div {
     margin-left: 10px;
     margin-right: 10px;
@@ -40,27 +45,19 @@ div {
 }
 
 .btn {
-    -webkit-box-shadow: 0 31px 68px -25px rgba(0, 0, 0, 0.68);
-    -moz-box-shadow: 0 31px 68px -25px rgba(0, 0, 0, 0.68);
-    box-shadow: 0 31px 68px -25px rgba(0, 0, 0, 0.68);
-    border-radius: 50px;
-    background-color: white;
     margin-bottom: 30px;
     padding-top: 16px;
     padding-bottom: 16px;
+    max-width: 500px;
     width: 100%;
+    border: 3px solid white;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 4vh;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-svg {
-    margin-right: 10px;
-    height: 5vh;
 }
 
 .license {
