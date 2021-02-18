@@ -2,6 +2,7 @@
 <head>
     <title>Thousandreams links</title>
     <link rel="stylesheet" href="./style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div>
@@ -21,7 +22,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get('origin') ?? "links";
     }
-    
+
     document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(".store").forEach((store) => {
             store.addEventListener("click", (e) => {
