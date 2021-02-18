@@ -24,7 +24,8 @@ body {
 }
 
 img {
-    max-width: 450px;
+    max-width: 95%;
+    width: 450px;
     margin-bottom: 5px;
 }
 
