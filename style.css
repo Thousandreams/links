@@ -30,8 +30,8 @@ img {
 }
 
 div {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -67,22 +67,4 @@ div {
     font-size: 7px;
     text-align: center;
     width: 100%;
-}
-
-@media only screen and (max-width: 768px) {
-    div {
-        margin-left: 50px;
-        margin-right: 50px;
-        justify-content: flex-start;
-    }
-
-    .btn {
-        margin-bottom: 15px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        max-width: 400px;
-        width: 100%;
-        border: 2px solid white;
-        font-size: 3vh;
-    }
 }
